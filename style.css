@@ -1,0 +1,47 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(233deg, 47%, 7%);
+}
+
+.main {
+  height: 446px;
+  width: 1000px;
+  background: hsl(244deg, 38%, 16%);
+  display: flex;
+  margin: 70px auto;
+  border-radius: 10px;
+}
+.main .left-cont {
+  flex: 50%;
+  padding: 20px;
+}
+.main .content {
+  padding: 20px;
+  font-size: 20px;
+}
+.main .title {
+  color: hsl(0deg, 0%, 100%);
+}
+.main strong {
+  color: hsl(277deg, 64%, 61%);
+}
+.main .description {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  padding: 20px;
+}
+.main .stats {
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  padding: 20px;
+  gap: 60px;
+}
+
+.img-header {
+  background-color: hsl(277deg, 64%, 61%);
+  flex: 50%;
+}
+
+/*# sourceMappingURL=style.scss.map *//*# sourceMappingURL=style.css.map */

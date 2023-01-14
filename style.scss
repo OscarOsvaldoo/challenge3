@@ -1,0 +1,66 @@
+
+
+$mainbg: hsl(233, 47%, 7%);
+$cardbg: hsl(244, 38%, 16%);
+$accent: hsl(277, 64%, 61%);
+
+// Neutral
+
+$stats: hsl(0, 0%, 100%);
+$paragraphs: hsla(0, 0%, 100%, 0.75);
+$statsh: hsla(0, 0%, 100%, 0.6);
+
+
+body,
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $mainbg;
+}
+
+
+.main{
+    height: 446px;
+    width: 1000px;
+    background: $cardbg;
+    display: flex;
+    margin: 70px auto;
+    border-radius: 10px;
+    .left-cont{
+        flex: 50%;
+        padding: 20px;
+        
+    }
+    .content{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .title{
+        color: $stats;
+    }
+    strong{
+        color: $accent;
+    }
+    .description{
+        color: $paragraphs;
+        padding: 20px;
+    }
+    .stats{
+        color: $stats;
+        display: flex;
+        padding: 20px;
+        gap: 60px
+    }
+
+
+    
+}
+
+.img-header{
+    background-color: $accent;
+    flex: 50%;
+}
+
+
+/*# sourceMappingURL=style.scss.map */
